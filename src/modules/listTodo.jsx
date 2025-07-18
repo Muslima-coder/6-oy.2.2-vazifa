@@ -14,7 +14,7 @@ const listTodo = ({todos, setTodos}) => {
       
   return (
     <div>
-      <ul className="flex justify-between p-20 items-center flex-wrap  w-full gap-[20px]">
+      <ul className="flex justify-center mx-auto sm:justify-between p-20 items-center flex-wrap  w-full gap-[20px]">
         {todos.map((item, index) => (
           <li key={item.id} className="w-[300px]  p-3 rounded-md shadow-xl shadow-slate-400 flex justify-between ">
             <div className="flex items-center gap-1">
