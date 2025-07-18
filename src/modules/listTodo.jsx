@@ -16,7 +16,7 @@ const listTodo = ({todos, setTodos}) => {
     <div>
       <ul className="flex justify-center mx-auto sm:justify-between p-20 items-center flex-wrap  w-full gap-[20px]">
         {todos.map((item, index) => (
-          <li key={item.id} className="sm:w-[300px] w-[250px] p-3 rounded-md shadow-xl shadow-slate-400 flex justify-between ">
+          <li key={item.id} className="sm:w-[300px] w-[280px] p-3 rounded-md shadow-xl shadow-slate-400 flex justify-between ">
             <div className="flex items-center gap-1">
               <span className="sm:text-[17px] text-[14px] font-medium text-white">#{index +1}</span>
               <strong className="sm:text-[17px] text-[14px] font-medium text-white">{item.title}</strong>
