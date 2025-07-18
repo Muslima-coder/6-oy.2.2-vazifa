@@ -23,8 +23,8 @@ const listTodo = ({todos, setTodos}) => {
             </div>
 
             <div className="flex items-center gap-2 ">
-              <button onClick={() =>handleEdit(item.id)} className="border-[#3A70E2] border-[2px] cursor-pointer text-[13px] sm:text-[15px] font-medium text-[#3A70E2] sm:py-2 sm:px-4  py-1 px-2 rounded-md hover:scale-[1.04] ">Edit</button>
-              <button onClick={() => handleDelete(index)} className="border-[#ff4d4d] border-[2px] cursor-pointer text-[13px] sm:text-[15px] font-medium text-[#ff4d4d] sm:py-2 sm:px-4  py-1 px-2 rounded-md hover:scale-[1.04] ">Delete</button>
+              <button onClick={() =>handleEdit(item.id)} className="border-[#3A70E2] border-[2px] cursor-pointer text-[13px] sm:text-[15px] font-medium text-[#3A70E2] sm:py-2 sm:px-4  py-1 px-2 rounded-md hover:scale-[1.04]  duration-300">Edit</button>
+              <button onClick={() => handleDelete(index)} className="border-[#ff4d4d] border-[2px] cursor-pointer text-[13px] sm:text-[15px] font-medium text-[#ff4d4d] sm:py-2 sm:px-4  py-1 px-2 rounded-md hover:scale-[1.04] duration-300 ">Delete</button>
             </div>
           </li>
         ))}
